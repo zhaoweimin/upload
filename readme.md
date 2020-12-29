@@ -7,9 +7,10 @@ npm start //启动服务
 入参
 file 文件
 
-
 VUE + axios 例子调用
 
+
+```
 <template>
   <div class="home">
     <input type="file" id="file">
@@ -47,4 +48,4 @@ import HelloWorld from "@/components/HelloWorld.vue"; // @ is an alias to /src
 })
 export default class Home extends Vue {}
 </script>
-
+```
